@@ -37,7 +37,7 @@ This project integrates **OpenVPN** on MikroTik routers with a **Debian-based VP
    ```
 
 3. **Configure Environment Variables**:
-   Create a `.env` file in the project root directory and set the following values:
+   Modify these values within app.py:
    ```plaintext
    ROUTER_IP=192.168.100.1
    SSH_USERNAME=admin
