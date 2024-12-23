@@ -33,7 +33,7 @@ This project integrates **OpenVPN** on MikroTik routers with a **Debian-based VP
 2. **Install Dependencies**:
    Use `pip` to install the necessary Python libraries:
    ```bash
-   pip install -r requirements.txt
+   pip install Flask paramiko librouteros
    ```
 
 3. **Configure Environment Variables**:
