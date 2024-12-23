@@ -7,9 +7,9 @@ from librouteros.exceptions import TrapError
 app = Flask(__name__)
 
 # MikroTik credentials
-ROUTER_IP = "192.168.100.1"
-SSH_USERNAME = "admin"
-SSH_PRIVATE_KEY = "/home/ngvpn/.ssh/id_rsa"  # Adjust this to the correct path of your private key
+ROUTER_IP = "ROUTER IP"
+SSH_USERNAME = "ROUTER ADMIN"
+SSH_PRIVATE_KEY = "PRIVATE KEY"  # Adjust this to the correct path of your private key
 
 @app.route('/')
 def index():
