@@ -47,7 +47,7 @@ This project integrates **OpenVPN** on MikroTik routers with a **Debian-based VP
 4. **Run the Flask App**:
    Start the Flask application:
    ```bash
-   python app.py
+   python3 app.py
    ```
 
 5. **Access the Web Interface**:
