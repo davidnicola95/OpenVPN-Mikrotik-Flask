@@ -28,3 +28,50 @@ This project integrates **OpenVPN** on MikroTik routers with a **Debian-based VP
    ```bash
    git clone https://github.com/davidnicola95/OpenVPN-MikroTik-Flask.git
    cd OpenVPN-MikroTik-Flask
+   ```
+
+2. **Install Dependencies**:
+   Use `pip` to install the necessary Python libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Configure Environment Variables**:
+   Create a `.env` file in the project root directory and set the following values:
+   ```plaintext
+   ROUTER_IP=192.168.100.1
+   SSH_USERNAME=admin
+   SSH_PRIVATE_KEY=/path/to/private_key
+   ```
+
+4. **Run the Flask App**:
+   Start the Flask application:
+   ```bash
+   python app.py
+   ```
+
+5. **Access the Web Interface**:
+   Open a browser and navigate to:
+   ```
+   http://<server_ip>:4444
+   ```
+
+## Usage
+1. Navigate to the web interface.
+2. Use the provided form to create a new VPN user.
+3. Download the `.ovpn` configuration file for the created user.
+4. Import the `.ovpn` file into your OpenVPN client to connect to the VPN.
+
+## Security Notes
+- Ensure that the private key and sensitive configuration files are not exposed in the repository or logs.
+- Use HTTPS for accessing the Flask web interface in a production environment.
+
+## Contributions
+Contributions to improve or expand this project are welcome. Please fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Disclaimer
+This project is intended for educational and personal use. Ensure compliance with local laws and IT policies when using VPNs.
+
