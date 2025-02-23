@@ -34,8 +34,8 @@ This project integrates **OpenVPN** on MikroTik routers with a **Debian-based VP
    ```ROUTER_IP = "ROUTER IP" (mikrotik settings)
      SSH_USERNAME = "ROUTER ADMIN"
      SSH_PRIVATE_KEY = "PRIVATE KEY"  # Adjust this to the correct path of your private key
-   remote {remote_host} {remote_port} (OVPN host)
-   app.run(host='0.0.0.0', port=4444) (app.py web interface)
+     remote {remote_host} {remote_port} (OVPN host)
+     app.run(host='0.0.0.0', port=4444) (app.py web interface)
    ```
 
 3. **Install Dependencies**:
