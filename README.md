@@ -69,7 +69,6 @@ This project integrates **OpenVPN** on MikroTik routers with a **Debian-based VP
 4. Import the `.ovpn` file into your OpenVPN client to connect to the VPN.
 
 ## Security Notes
-- Ensure that the private key and sensitive configuration files are not exposed in the repository or logs.
 - Use HTTPS for accessing the Flask web interface in a production environment.
 
 ## Contributions
