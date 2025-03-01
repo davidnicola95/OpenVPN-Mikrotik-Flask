@@ -9,6 +9,7 @@ This project integrates **OpenVPN** on MikroTik routers with a **Debian-based VP
 - **Flask-Based Web Interface**: Simplifies user interaction by providing an accessible web platform for creating and managing VPN profiles.
 - **Certificate Management**: Automatically generates and exports the necessary certificates and keys for each VPN client.
 - **OVPN File Generation**: Creates fully configured `.ovpn` files for easy client-side setup.
+- **Index and Error HTML pages**: Index page for creating users, error page and logic to warn if a user already exists under secrets in Mikrotik.
 
 ## Requirements
 ### Hardware
