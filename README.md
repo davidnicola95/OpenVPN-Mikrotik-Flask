@@ -28,7 +28,6 @@ This project integrates **OpenVPN** on MikroTik routers with a **Debian-based VP
    ```bash
    git clone https://github.com/davidnicola95/OpenVPN-MikroTik-Flask.git
    cd OpenVPN-MikroTik-Flask
-   sudo apt install -y python3 python3-pip python3-venv
    ```
 
 2. **Install Dependencies**:
@@ -38,6 +37,7 @@ This project integrates **OpenVPN** on MikroTik routers with a **Debian-based VP
    source venv/bin/activate
    pip install Flask paramiko librouteros
    python3 app.py
+   sudo apt install -y python3 python3-pip python3-venv
    ```
 
 3. **Configure Environment Variables**:
